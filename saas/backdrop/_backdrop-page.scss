@@ -7,15 +7,15 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.backdrop__title {
-  display: block;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 0.82;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 12px;
+  &__title {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0.82;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 12px;
+  }
 }
